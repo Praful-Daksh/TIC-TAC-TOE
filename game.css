@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Madimi One";
+}
+h1,h3{
+    margin-top:3vmin;
+    letter-spacing: 1vmin;
+}
+body{
+   background-color: #20063B;
+   color: white;
+   text-align: center;
+   
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.game{
+    height:60vmin;
+    width: 60vmin;
+    margin-top: 8vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #e3ddd9;
+    color: red;
+    border: none;
+    border-radius: 20px;
+    font-size: 10vmin;
+}
+.color-2{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #e3ddd9;
+    color: blue;
+    border: none;
+    border-radius: 20px;
+    font-size: 10vmin;
+}
+.reset{
+    margin-top: 10vmin;
+    padding:2vmin;
+    background-color:#e4dbdb ;
+    border:none;
+    border-radius: 5vmin;
+}
+.new{
+    margin-top: 10vmin;
+    margin-left: 2vmin;
+    padding:2vmin;
+    background-color:#e4d9d9 ;
+    border:none;
+    border-radius: 5vmin;
+} 
